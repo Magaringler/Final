@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #b51408;
+}
+
+main{
+	width: 940px;
+	height: 790px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 940px;
+	height: 140px;
+	background-color: #0c4510;
+}
+		.logothor{
+			padding-left: 372px;
+		}
+
+		.menu{
+			margin-left: 100px;
+		}
+			a{
+				text-decoration: none;
+				color: inherit;
+				font-size: 14px;
+				text-align: right;
+			}
+
+			li{
+				display:inline-block;
+				width:110px;
+				padding:8px 15px;
+				background-color:#000;
+				border:2px solid #fcef09;
+				text-align:center;
+				color:#fcef09;
+				margin-left: 30px;
+				margin-top: 10px;
+			}
+
+			li:hover{
+				background-color:#fcef09;
+				color:#000;
+				border:2px solid #fcef09;
+			}
+
+
+article{
+	width: 940px;
+	height: 610px;
+	background-color: black;
+}
+
+	.titulo{
+		padding-top: 20px;
+		padding-left: 350px;
+		padding-bottom: 20px;
+	}
+		h6{
+			font-family: 'Days One', sans-serif;
+			font-size: 30px;
+			color: #fcef09
+		}
+
+	#uno{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-left: 60px;
+		float: left;
+		}
+
+			.tipo{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+			h5{
+				font-family: 'Days One', sans-serif;
+				font-size: 25px;
+				color: #fcef09
+			}
+
+			h1{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+			h4{
+				font-family: 'Days One', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			h3{
+				font-family: 'Days One', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+	#dos{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito2.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-right: 60px;
+		float: right;
+		}
+			.colores{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+
+
+
+footer{
+	width: 940px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+	}
+	.logo{
+			padding-left: 32px;
+		}
+
+		.nombre{
+			float: right;
+			margin-right: 32px;
+			margin-top: 8px;
+		}
+			h2{
+					font-family: 'Montserrat', sans-serif;
+					font-size: 15px;
+					color: #fcef09
+				}
+
+
+
+
+
+
+
+
+/* Small (mobiles, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ body{ background-color: #b51408;}
+
+ main{
+	width: 576px;
+	height: 1390px;
+	background-color: #000;
+	margin: auto;
+	}
+
+ header{
+	width: 576px;
+	height: 190px;
+	background-color: #0c4510;
+	}
+			.logothor{
+				padding-left: 190px;
+			}
+
+			.menu{
+				margin-left: 80px;
+			}
+				a{
+					text-decoration: none;
+					color: inherit;
+					font-size: 18px;
+					text-align: right;
+				}
+
+				li{
+					display:inline-block;
+					width:140px;
+					padding:7px 12px;
+					background-color:#000;
+					border:2px solid #fcef09;
+					text-align:center;
+					color:#fcef09;
+					margin-left: 24px;
+					margin-top: 10px;
+				}
+
+				li:hover{
+					background-color:#fcef09;
+					color:#000;
+					border:2px solid #fcef09;
+				}
+
+ article{
+	width: 576px;
+	height: 1160px;
+	background-color: black;
+	}
+
+
+	.titulo{
+		padding-top: 20px;
+		padding-left: 185px;
+		padding-bottom: 20px;
+	}
+		h6{
+			font-family: 'Days One', sans-serif;
+			font-size: 30px;
+			color: #fcef09
+		}
+
+	#uno{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-left: 92px;
+		float: left;
+		}
+
+			.tipo{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+			h5{
+				font-family: 'Days One', sans-serif;
+				font-size: 25px;
+				color: #fcef09
+			}
+
+			h1{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+			h4{
+				font-family: 'Days One', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			h3{
+				font-family: 'Days One', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+	#dos{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito2.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-top: 30px;
+		margin-left: 92px;
+		float: left;
+	}
+		.colores{
+			width: 320px;
+			height: 490px;
+			padding-top: 20px;
+			}
+
+ footer{
+	width: 576px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+	}
+		.logo{
+				padding-left: 32px;
+			}
+
+			.nombre{
+				float: right;
+				margin-right: 32px;
+				margin-top: 8px;
+			}
+				h2{
+						font-family: 'Montserrat', sans-serif;
+						font-size: 15px;
+						color: #fcef09
+					}
+}
+
+
+
+
+
+
+
+
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+ body{ background-color: #b51408;}
+
+ main{
+	width: 768px;
+	height: 1340px;
+	background-color: #000;
+	margin: auto;
+	}
+
+ header{
+	width: 768px;
+	height: 140px;
+	background-color: #0c4510;
+	}
+		.logothor{
+			padding-left: 285px;
+		}
+
+		.menu{
+			margin-left: 15px;
+		}
+			a{
+				text-decoration: none;
+				color: inherit;
+				font-size: 16px;
+				text-align: center;
+			}
+
+			li{
+				display:inline-block;
+				width:110px;
+				padding:8px 15px;
+				background-color:#000;
+				border:2px solid #fcef09;
+				text-align:center;
+				color:#fcef09;
+				margin-left: 30px;
+				margin-top: 10px;
+			}
+
+			li:hover{
+				background-color:#fcef09;
+				color:#000;
+				border:2px solid #fcef09;
+			}
+
+
+ article{
+	width: 768px;
+	height: 1160px;
+	background-color: black;
+	}
+
+	.titulo{
+		padding-top: 20px;
+		padding-left: 278px;
+		padding-bottom: 20px;
+	}
+		h6{
+			font-family: 'Days One', sans-serif;
+			font-size: 30px;
+			color: #fcef09
+		}
+
+	#uno{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-left: 190px;
+		float: left;
+		}
+
+			.tipo{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+			h5{
+				font-family: 'Days One', sans-serif;
+				font-size: 25px;
+				color: #fcef09
+			}
+
+			h1{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+			h4{
+				font-family: 'Days One', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			h3{
+				font-family: 'Days One', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+	#dos{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito2.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-top: 30px;
+		margin-left: 190px;
+		float: left;
+	}
+		.colores{
+			width: 320px;
+			height: 490px;
+			padding-top: 20px;
+			}
+
+footer{
+	width: 768px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+}
+	.logo{
+			padding-left: 32px;
+		}
+
+		.nombre{
+			float: right;
+			margin-right: 32px;
+			margin-top: 8px;
+		}
+			h2{
+					font-family: 'Montserrat', sans-serif;
+					font-size: 15px;
+					color: #fcef09
+				}
+}
+
+
+
+
+
+
+
+/*Large  (tablets, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ 
+ body{ background-color: #b51408;}
+
+ main{
+	width: 992px;
+	height: 800px;
+	background-color: #000;
+	margin: auto;
+	}
+
+ header{
+	width: 992px;
+	height: 140px;
+	background-color: #0c4510;
+	}
+		.logothor{
+			padding-left :398px;
+		}
+
+		.menu{
+			margin-left: 96px;
+		}
+			a{
+				text-decoration: none;
+				color: inherit;
+				font-size: 16px;
+				text-align: center;
+			}
+
+			li{
+				display:inline-block;
+				width:125px;
+				padding:8px 12px;
+				background-color:#000;
+				border:2px solid #fcef09;
+				text-align:center;
+				color:#fcef09;
+				margin-left: 35px;
+				margin-top: 10px;
+			}
+
+			li:hover{
+				background-color:#fcef09;
+				color:#000;
+				border:2px solid #fcef09;
+			}
+
+
+ article{
+	width: 922px;
+	height: 620px;
+	background-color: black;
+	}
+
+	.titulo{
+		padding-top: 20px;
+		padding-left: 373px;
+		padding-bottom: 20px;
+	}
+		h6{
+			font-family: 'Days One', sans-serif;
+			font-size: 35px;
+			color: #fcef09
+		}
+
+	#uno{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-left: 80px;
+		float: left;
+		}
+
+			.tipo{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+			h5{
+				font-family: 'Days One', sans-serif;
+				font-size: 25px;
+				color: #fcef09
+			}
+
+			h1{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+			h4{
+				font-family: 'Days One', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			h3{
+				font-family: 'Days One', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+	#dos{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito2.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-right: 16px;
+		float: right;
+		}
+			.colores{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+
+ footer{
+	width: 992px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+	}
+	.logo{
+			padding-left: 32px;
+		}
+
+		.nombre{
+			float: right;
+			margin-right: 32px;
+			margin-top: 8px;
+		}
+			h2{
+					font-family: 'Montserrat', sans-serif;
+					font-size: 15px;
+					color: #fcef09
+				}
+}
+
+
+
+
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+ body{ background-color: #b51408;}
+
+  main{
+	width: 1200px;
+	height: 800px;
+	background-color: #000;
+	margin: auto;
+	}
+
+ header{
+	width: 1200px;
+	height: 140px;
+	background-color: #0c4510;
+	}
+		.logothor{
+			padding-left :504px;
+		}
+
+		.menu{
+			margin-left: 190px;
+		}
+			a{
+				text-decoration: none;
+				color: inherit;
+				font-size: 16px;
+				text-align: center;
+			}
+
+			li{
+				display:inline-block;
+				width:125px;
+				padding:px 12px;
+				background-color:#000;
+				border:2px solid #fcef09;
+				text-align:center;
+				color:#fcef09;
+				margin-left: 35px;
+				margin-top: 10px;
+			}
+
+			li:hover{
+				background-color:#fcef09;
+				color:#000;
+				border:2px solid #fcef09;
+			}
+
+
+ article{
+	width: 1200px;
+	height: 620px;
+	background-color: black;
+	}
+
+	.titulo{
+		padding-top: 20px;
+		padding-left: 460px;
+		padding-bottom: 20px;
+	}
+		h6{
+			font-family: 'Days One', sans-serif;
+			font-size: 40px;
+			color: #fcef09
+		}
+
+	#uno{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-left: 160px;
+		float: left;
+		}
+
+			.tipo{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+			h5{
+				font-family: 'Days One', sans-serif;
+				font-size: 25px;
+				color: #fcef09
+			}
+
+			h1{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+			h4{
+				font-family: 'Days One', sans-serif;
+				font-size: 20px;
+				color: #fcef09
+			}
+
+			h3{
+				font-family: 'Days One', sans-serif;
+				font-size: 18px;
+				color: #fcef09
+			}
+
+	#dos{
+		width: 350px;
+		height: 510px;
+		background-image: url("../img/fondito2.png");
+		padding-right: 15px;
+		padding-left: 25px;
+		margin-right: 160px;
+		float: right;
+		}
+			.colores{
+				width: 320px;
+				height: 490px;
+				padding-top: 20px;
+				}
+
+ footer{
+	width: 1200px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+	}
+	.logo{
+			padding-left: 32px;
+		}
+
+		.nombre{
+			float: right;
+			margin-right: 32px;
+			margin-top: 8px;
+		}
+			h2{
+					font-family: 'Montserrat', sans-serif;
+					font-size: 15px;
+					color: #fcef09
+				}
+}
